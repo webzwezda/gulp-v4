@@ -1,0 +1,36 @@
+html{
+  font-size: 15px;
+  font-family: $fText;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #eef3fb;
+  margin: 0;
+}
+
+
+@include for-tablet-portrait-up {
+ // 600px 
+
+ // 600px 
+}
+@include for-tablet-landscape-up {
+ // 900px 
+ 
+ // 900px
+}
+@include for-desktop-up {
+ // 1200px 
+ html{
+   font-size: 17px;
+ }
+
+ // 1200px 
+}
+@include for-big-desktop-up {
+ // 1800 
+
+ // 1800 
+}
